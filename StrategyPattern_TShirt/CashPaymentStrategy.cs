@@ -38,6 +38,7 @@ namespace StrategyPattern_TShirt
                     break;
             }
             //The price is the same for all colors
+            Console.WriteLine($"The price of your T-Shirt is: {basePrice:0.##}\u20AC");
         }
     }
 }

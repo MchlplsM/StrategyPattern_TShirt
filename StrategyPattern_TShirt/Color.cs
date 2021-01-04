@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern_TShirt
 {
-    class Color
+    public enum Color
     {
+        RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET
     }
 }
