@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankTransferPaymentStrategy.cs" />
     <Compile Include="CashPaymentStrategy.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="Fabric.cs" />
