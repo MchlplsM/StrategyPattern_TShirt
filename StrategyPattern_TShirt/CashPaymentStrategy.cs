@@ -27,6 +27,17 @@ namespace StrategyPattern_TShirt
                     basePrice = 30.0m;
                     break;
             }
+            switch (tshirt.Size)
+            {
+                //The price changes only for these sizes
+                case Size.L:
+                case Size.XL:
+                case Size.XXL:
+                case Size XXXL:
+                    basePrice += basePrice * 0.05m;
+                    break;
+            }
+            //The price is the same for all colors
         }
     }
 }
