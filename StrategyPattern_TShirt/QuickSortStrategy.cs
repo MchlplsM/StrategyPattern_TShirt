@@ -302,5 +302,39 @@ namespace StrategyPattern_TShirt
 
             return i + 1;
         }
+
+        void SortBySizeAscending(List<TShirt> tShirts)
+        {
+            QuickSortBySizeAscending(tShirts, 0, tShirts.Count - 1);
+        }
+        void SortBySizeDescending(List<TShirt> tShirts)
+        {
+            QuickSortBySizeDescending(tShirts, 0, tShirts.Count - 1);
+        }
+        void SortByColorAscending(List<TShirt> tShirts)
+        {
+            QuickSortByColorAscending(tShirts, 0, tShirts.Count - 1);
+        }
+        void SortByColorDescending(List<TShirt> tShirts)
+        {
+            QuickSortByColorDescending(tShirts, 0, tShirts.Count - 1);
+        }
+        void SortByFabricAscending(List<TShirt> tShirts)
+        {
+            QuickSortByFabricAscending(tShirts, 0, tShirts.Count - 1);
+        }
+        void SortByFabricDescending(List<TShirt> tShirts)
+        {
+            QuickSortByFabricDescending(tShirts, 0, tShirts.Count - 1);
+        }
+        void SortBySizeThenColorThenFabricAscending(List<TShirt> tShirts)
+        {
+            QuickSortBySizeThenColorThenFabricAscending(tShirts, 0, tShirts.Count - 1);
+        }
+
+        void SortBySizeThenColorThenFabricDescending(List<TShirt> tShirts)
+        {
+            QuickSortBySizeThenColorThenFabricDescending(tShirts, 0, tShirts.Count - 1);
+        }
     }
 }
