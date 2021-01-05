@@ -43,5 +43,12 @@ namespace StrategyPattern_TShirt
             Console.WriteLine("7. XXXL");
 
         }
+        public void PaymentMethodMenu()
+        {
+            Console.WriteLine("Select payment method");
+            Console.WriteLine("1. Credit Card");
+            Console.WriteLine("2. Bank Transfer");
+            Console.WriteLine("3. Cash");
+        }
     }
 }
