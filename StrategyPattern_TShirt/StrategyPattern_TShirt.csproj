@@ -49,6 +49,7 @@
     <Compile Include="CreditCardPaymentStrategy.cs" />
     <Compile Include="Fabric.cs" />
     <Compile Include="IPaymentStrategy.cs" />
+    <Compile Include="ISortStrategy.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
