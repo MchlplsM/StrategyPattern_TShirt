@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankTransferPaymentStrategy.cs" />
+    <Compile Include="BucketSortStrategy.cs" />
     <Compile Include="CashPaymentStrategy.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="CreditCardPaymentStrategy.cs" />
